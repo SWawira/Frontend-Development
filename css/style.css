@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Pacifico&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Overpass:wght@300&family=Pacifico&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&family=Overpass:wght@300&family=Pacifico&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    break-inside: avoid;
+}
+
+.outer-container, nav{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(90deg,rgb(151, 120, 209) 35%,rgb(74, 234, 220));
+    /*,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%*/
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 20px 0px;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-right: 5rem;
+}
+
+.meetme{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+.inner-container{
+    border: 7px solid whitesmoke;
+    border-radius: 10px;
+    width: 70vw;
+    height: 75vh;
+    margin: -250px auto;
+    background-color: white;
+}
+
+.left{
+    width: 30vw;
+    height: 70vh;
+    padding: 1.1rem;
+    margin: 10px 20px 10px 25px; /*top right bottom left*/
+    float: left;
+    background-image: url("../img/profile_photo.jpg");
+    background-size: cover; /*the photo covers the entire float container!*/
+}
+
+img{
+    margin: 0px 10px 0px -5px;
+}
+
+.right{
+    width: 30vw;
+    height: 70vh;
+    padding: 1.1rem;
+    margin: 10px 20px 10px 25px;
+    /* background-color: plum; */
+    float: right;
+}
+
+.inside{
+    width: 27.5vw;
+    height: 65.5vh;
+    padding: 3rem;
+    border: 50px 20px;
+    background-color: white;
+    float: right; 
+}
+
+section{
+    font-family: 'Heebo', sans-serif;
+}
+
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    break-inside: avoid;
+}
+
+.head{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#phone, #email{
+    color: black;
+}
