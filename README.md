@@ -1,1 +1,1 @@
-My frontend project!
+This project was created to practice my skills in HTML and CSS to create a mock landing page for my portfolio. It has one page with dumb links and runs on localhost using the live server extension in VS Code.
